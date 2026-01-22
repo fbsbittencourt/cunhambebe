@@ -41,7 +41,7 @@ const Footer = () => {
 
             <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-forest/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] text-forest/40 uppercase tracking-widest">
                 <p>© 2026 Parque Estadual Cunhambebe. Todos os direitos reservados.</p>
-                <p>Design & Desenvolvimento</p>
+                <p>Design & Desenvolvimento ICP</p>
             </div>
         </footer>
     );
