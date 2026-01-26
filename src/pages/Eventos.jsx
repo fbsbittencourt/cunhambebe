@@ -7,7 +7,7 @@ import veiospassaros2 from '../assets/veiospassaros2.jpeg';
 import veiospassaros3 from '../assets/veiospassaros3.jpeg';
 
 const featuredEvents = [
-    {
+    {                              
         id: 1,
         title: "Vem Passarinhar",
         date: "Domingos",
