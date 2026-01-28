@@ -10,8 +10,8 @@ import monkey from '../assets/muriqui-monkey.png';
 import bird from '../assets/tie-sangue-bird.png';
 import ruins from '../assets/historical-ruins.png';
 import chief from '../assets/cunhambebe-chief.png';
-import texture from '../assets/texture_background_v2.png';
-import waterfall from '../assets/cachoeira_do_itinguçu.webp';
+import texture from '../assets/alvaro_pontos/texture_background_v2.png';
+import waterfall from '../assets/alvaro_pontos/cachoeira_do_itinguçu.webp';
 
 gsap.registerPlugin(ScrollTrigger);
 
