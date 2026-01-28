@@ -2,17 +2,10 @@ import React, { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { MapPin, ChevronLeft, ChevronRight } from 'lucide-react';
 
-import veu1 from '../assets/Trilhas/Veu_noiva/veu_1.JPG';
-import veu2 from '../assets/Trilhas/Veu_noiva/veu_2.jpeg';
-import veu3 from '../assets/Trilhas/Veu_noiva/veu_3.jpeg';
-import img1 from '../assets/Trilhas/Caminho_das_aguas/caminho_1.jpeg';
-import img2 from '../assets/Trilhas/Caminho_das_aguas/caminho_2.jpeg';
-import pont1 from '../assets/Trilhas/ponte_bela/pont1.JPG';
-import pont2 from '../assets/Trilhas/ponte_bela/pont2.JPG';
-import paisg from '../assets/Trilhas/Veu_noiva/paisagem.jpeg';
-
-
-
+import veu1 from '../assets/Trilhas/veudanoiva.jpg';
+import img1 from '../assets/Trilhas/caminhodasaguas.jpeg';
+import pont1 from '../assets/Trilhas/pontebela.jpg';
+import paisg from '../assets/Trilhas/cachoeiraitingucu.jpg';
 
 
 const WaterfallCard = ({ number, name, difficulty, location, description, images, popular }) => {
@@ -127,9 +120,7 @@ const Cachoeiras = () => {
             location: "Muriqui",
             description: "É a joia da coroa do PEC. Uma queda espetacular de aproximadamente 50 metros que serpenteia o paredão rochoso. A trilha exige fôlego, com trechos de subida acentuada e raízes expostas, mas recompensa o visitante com uma piscina natural de águas geladas e uma vista privilegiada da vegetação nativa de Mata Atlântica.",
             images: [
-                veu1,
-                veu2,
-                veu3
+                veu1
             ]
         },
         {
@@ -139,9 +130,7 @@ const Cachoeiras = () => {
             location: "Vale do Sahy",
             description: "Um circuito refrescante que margeia o Rio Sahy. É a opção ideal para famílias e grupos que buscam contemplação sem grande esforço físico. O caminho apresenta diversos poços naturais de águas cristalinas e pequenas quedas, com trilhas sombreadas pela copa das árvores e terreno majoritariamente plano.",
             images: [
-                img1,
-                img2,
-
+                img1
             ]
         },
         {
@@ -151,9 +140,7 @@ const Cachoeiras = () => {
             location: "Serra do Piloto",
             description: "Situada na histórica Estrada Imperial, esta cachoeira combina natureza e história. O acesso é quase imediato a partir da estrada, sendo uma das mais acessíveis do parque. Suas águas calmas correm sob as ruínas da antiga ponte de pedra do período imperial, oferecendo um cenário fotográfico e um banho relaxante e seguro.",
             images: [
-                pont1,
-                pont2,
-
+                pont1
             ]
         }
     ];
